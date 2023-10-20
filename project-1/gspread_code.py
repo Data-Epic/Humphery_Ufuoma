@@ -70,7 +70,7 @@ def update_spreadsheet(spreadsheet = "Gspread SpreadSheet",worksheet="Sheet1"):
         data =  pd.DataFrame(github_repo).reset_index(drop=True)
     except Exception as e:
         logging.critical("one or more elements were not found", e)
-        exit(0)
+        raise ValueError("All arrays must be of the same length")
         
     #updating to spreadsheet
     worksheet.update([data.columns.tolist()] + data.values.tolist()) 
