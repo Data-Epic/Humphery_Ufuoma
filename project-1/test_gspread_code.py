@@ -1,18 +1,10 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Oct 24 12:25:03 2023
-
-@author: computer world
-"""
-
 import pytest
 from gspread_code import UpdateSpreadSheet
 from unittest.mock import patch
 import pandas as pd
 
 
-class TestUpdateSpreadSheet:
-   
+class TestUpdateSpreadSheet:  
     
     @pytest.fixture
     def instantiate_class(self):
@@ -26,7 +18,7 @@ class TestUpdateSpreadSheet:
          variables successfully'''
         
         #mocking selenium driver attribute for checks if code syntax is accurate
-        with patch('gspread_code.driver.find_elements') as mocked_get:
+        with patch("gspread_code.driver.find_elements") as mocked_get:
             #mocked attribute driver.find_elements is assigned to list to check
             mocked_get.return_value = ['textID','yes']
             #calling getting_data function which begins to get the data from selenium
