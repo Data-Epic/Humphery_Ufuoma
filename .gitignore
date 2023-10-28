@@ -1,4 +1,0 @@
-*.json
-.env
-chromedriver.exe
-LICENSE.chromedriver
