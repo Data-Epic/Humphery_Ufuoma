@@ -12,11 +12,16 @@
 
 ## input data is gotten from github repo : https://docs.google.com/spreadsheets/d/1SUlcukpgxf6pfFQbj6DKQZXSlOhyBOSuBdbmQ2ZbhTM/edit#gid=327494290 <br/>
 
-## Process <br/>
+## Process Handling Missing Data <br/>
  -> Install Required Libraries <br/>
  -> Each of the missing values are classified into one of the following MCAR, MAR, MNAR <br/>
 
-## output result on spreadsheet is on github : cleaned_data.csv 
+## Process  Inconsistent Data <br/>
+ -> Each Inconsistency in columns were worked on
+
+## output result on spreadsheet is on github : cleaned_data.csv, consistent1.csv
+
+
 
 
 
