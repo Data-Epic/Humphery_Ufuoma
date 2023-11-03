@@ -19,6 +19,11 @@
 ## Process  Inconsistent Data <br/>
  -> Each Inconsistency in columns were worked on
 
+## Process Feature Engineering <br/>
+-> Synthesis of new features
+-> Outlier detection
+-> Normalization of Data
+
 ## output result on spreadsheet is on github : cleaned_data.csv, consistent1.csv
 
 
